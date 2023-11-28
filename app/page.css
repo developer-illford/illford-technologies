@@ -10,6 +10,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   word-wrap: normal;
+  animation: slideInFromSide 1s ease-out;
 }
 
 
@@ -32,6 +33,7 @@
 .home-content-div {
   display: flex;
   justify-content: center;
+  
 }
 .home-content {
   color: white;

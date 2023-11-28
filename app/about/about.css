@@ -10,6 +10,18 @@
     transform: translateX(0);
   }
 }
+  @media screen and (max-width: 767px) {
+    *{
+      max-width: 767px;
+      margin: 10%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .container{
+    }
+  }
+
 
 /* Container styles */
 .about-container {
@@ -33,6 +45,8 @@
   position: relative;
   top: 0 !important;
   z-index: -1;
+  width: 100%;
+ 
 }
 
 .about-content {
@@ -45,6 +59,44 @@
   top: 30vh;
   left: 40%;
   animation: slideInFromSide 1s ease-out;
+}
+/* Media Query for All Screen Sizes */
+@media screen and (max-width: 767px) {
+  /* 
+  Adjust styles for smaller screens here */
+
+  .about-image-div{
+    max-width: 767px;
+  }
+  .about-content {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  ;
+    left: 90px;
+    
+  }
+  .about-image {
+    height: 500px;
+    background-size: cover;
+    object-fit: center;
+    position: relative;
+    top: 0 !important;
+    z-index: -1;
+  max-width: 767px; 
+  }
+  
+  
+  /* Add more adjustments as needed for other elements */
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Adjust styles for medium-sized screens here */
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* Adjust styles for larger screens here */
 }
 
 /* About main section styles */
@@ -175,6 +227,37 @@
     width: 960px;
 } */
 
+  @media screen and (max-width: 767px) {
+    .about-main {
+      width: 100%;
+      max-width: 767px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column-reverse;
+      animation: slideInFromSide 1s ease-out;
+      border: 2px solid red;
+    }
+    .about-main img {
+      width: 40%;
+      border: 2px solid blue;
+      left: 10px;
+     
+    }
+
+    .about-our-company {
+      color: transparent;
+      font-family: "poppins-Regular", Helvetica;
+      font-size: 20px;
+      font-weight: 200;
+      letter-spacing: 0;
+      line-height: normal;
+      border-left: 2px solid black;
+      width: 100%;
+      padding-left: 10px;
+      animation: slideInFromSide 1s ease-out;
+      border: 2px solid red;
+    }
+  }
 .learn-more-optimize {
   height: 200px;
   color: transparent;

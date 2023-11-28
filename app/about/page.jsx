@@ -1,15 +1,17 @@
+'use client'
 import Image from "next/image";
 import "../about/about.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "../Components/Footer";
 
 const About = () => {
+
   return (
+    // about section
     <div className="about-container">
       <div className="about-image-div">
         <img src="/images/about.png" alt="" className="about-image" />
       </div>
-
       <div className="about">
         <div className="about-content">
           <p> About Us</p>
@@ -20,6 +22,7 @@ const About = () => {
             src="/images/about-page-mock.webp"
             alt="about-page-mock"
           />
+          {/* about our company section */}
 
           <p className="about-our-company">
             <span className="text-wrapper">
@@ -46,7 +49,7 @@ const About = () => {
               <p>• Web Design & Development</p>
             </div>
             <div className="learn-more-btn-div">
-              <button>
+              <button >
                 Learn More
                 <i className="bi bi-arrow-right service-arrow"></i>
               </button>
@@ -94,6 +97,7 @@ const About = () => {
           />
         </div>
       </div>
+      {/* Our Awards Section */}
       <div className="our-award">
         <div className="our-award-div1">
           <p className="our-award-p">
@@ -132,7 +136,7 @@ const About = () => {
           </div>
         </div>
       </div>
-
+      {/* Our teams Section */}
       <div className="our-team">
         <div className="our-team-div1">
           <p className="our-team-p">
@@ -161,7 +165,7 @@ const About = () => {
           />
         </div>
       </div>
-
+      {/* Testimonials section */}
       <div className="home-testimonial-div">
         <div className="home-testimonial-heading">
           <p>Testimonials</p>
@@ -216,6 +220,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      {/* Blog section */}
       <div className="home-blog-main-div">
         <div className="home-blog-heading">
           <p>Recent</p>
@@ -257,6 +262,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      {/* Footer section */}
       <Footer />
     </div>
   );
