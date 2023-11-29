@@ -185,11 +185,23 @@
   margin-bottom: 20px;
   color: var(--colortheme);
 }
+@keyframes slideLoop {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .home-service-img {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: slideLoop 3s infinite; 
 }
 .home-service-img img {
   width: 70%;
