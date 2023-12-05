@@ -1,6 +1,6 @@
 import React from "react";
-import "../Components/Contact.css";
-function Contact() {
+import "../Components/Contactss.css";
+function Contactss() {
   return (
     <div className="contact-main-div" id="contact">
       <div className="contact-div">
@@ -50,4 +50,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Contactss;

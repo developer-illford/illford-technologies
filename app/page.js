@@ -2,8 +2,9 @@ import "../app/page.css";
 import arrow from "../public/home-arrow.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Image from "next/image";
-import Contact from "./Components/Contact";
+
 import Footer from "./Components/Footer";
+import Contactss from "./Components/Contact";
 export default function Home() {
   return (
     // Home section
@@ -236,7 +237,7 @@ export default function Home() {
 
         {/* contact section */}
 
-        <Contact />
+        <Contactss />
 
         {/* FAQ's section */}
 

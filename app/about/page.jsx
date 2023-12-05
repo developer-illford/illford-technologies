@@ -1,62 +1,60 @@
-'use client'
+"use client";
 import Image from "next/image";
 import "../about/about.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "../Components/Footer";
 
 const About = () => {
-
   return (
     // about section
     <div className="about-container">
       <div className="about-image-div">
-        <img src="/images/about.png" alt="" className="about-image" />
-      </div>
-      <div className="about">
         <div className="about-content">
           <p> About Us</p>
         </div>
-        <div className="about-main">
-          <img
-            className="about-img-mock"
-            src="/images/about-page-mock.webp"
-            alt="about-page-mock"
-          />
-          {/* about our company section */}
+      </div>
 
-          <p className="about-our-company">
-            <span className="text-wrapper">
-              About our company
-              <br />
-            </span>
-            <span className="about-text">
-              Get to Audience with Targeted
-              <br />
-              Ads on Associative media
-            </span>
-          </p>
-          <div className="overlap-1">
-            <p className="about-mission">
-              Our mission is to provide the best possible service and products
-              that are in line with your business goals, while ensuring a
-              seamless user experience. We aim to be at the forefront of digital
-              marketing by providing innovative solutions for small and medium
-              enterprises.
+      {/* about our company section */}
+
+      <div className="service-section-div">
+        <div className="home-service-section">
+          <div className="service-intro">
+            <p className="home-service-first-tsxt"> About our company</p>
+            <h1>Get To Audience With Targeted Ads On Associative Media</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <div className="about-service">
-              <p>• Wholesale/Retail server provider</p>
-              <p>• Digital Marketing Services</p>
-              <p>• Web Design & Development</p>
+
+            <div className="services">
+              <div className="home-service-item">
+                <img src="/images/digital-marketing-dot.png" alt="" />
+                <p>Wholesale/Retail server provider</p>
+              </div>
+              <div className="home-service-item">
+                <img src="/images/wholsale&retail.png" alt="" />
+                <p>Digital Marketing Solution Partner</p>
+              </div>
+              <div className="home-service-item">
+                <img src="/images/webdev-dot.png" alt="" />
+                <p>Web Developments and & App developments</p>
+              </div>
+              <div className="learn-more-btn-div">
+                <button>
+                  Learn More
+                  <i className="bi bi-arrow-right service-arrow"></i>
+                </button>
+              </div>
             </div>
-            <div className="learn-more-btn-div">
-              <button >
-                Learn More
-                <i className="bi bi-arrow-right service-arrow"></i>
-              </button>
-            </div>
+          </div>
+          <div className="home-service-img">
+            <img src="/images/about-page-mock.webp" alt="" />
           </div>
         </div>
       </div>
+
+      {/* learn more section */}
+
       <div className="main-overlap-2">
         <div className="overlap-2">
           <div className="overlap-2-content">
@@ -66,20 +64,16 @@ const About = () => {
                 <br />
               </span>
               <span className="text-wrapper-3">
-                Optimize Your Digital <br /> Marketing Campaings To Ensure
-                <br /> The Best Result
+                Optimize Your Digital <br /> Marketing Campaings
               </span>
             </p>
             <p className="text-wrapper-4">
               With a robust industry tenure exceeding 5 years, we have
               cultivated a profound knowledge base that positions us as industry
-              leaders ready to cater to your unique needs. At Illford
-              Technologies , our journey is marked by continuous evolution and a
-              commitment to excellence. Our seasoned team, well-versed in the
-              latest industry trends, thrives on innovation and is dedicated to
-              ensuring your success. Choose us for a client-centric approach,
-              where transparent communication and collaboration converge to
-              deliver not just services, but enduring partnerships.
+              leaders ready to cater to your unique needs. Choose us for a
+              client-centric approach, where transparent communication and
+              collaboration converge to deliver not just services, but enduring
+              partnerships.
             </p>
             <p className="text-wrapper-5">
               <i className="bi bi-check"></i>
