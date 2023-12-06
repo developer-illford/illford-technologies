@@ -18,6 +18,7 @@ const Footer = () => {
               <a href="/about"><p>About Us</p></a>
               <a href="/services"><p>Services</p></a>
               <a href="/portfolio"><p>Portfolio</p></a>
+              <a href="/contact"><p>Contact</p></a>
             </div>
           </div>
           <div className="footer-bottom">
