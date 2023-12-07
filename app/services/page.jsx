@@ -124,7 +124,7 @@ const Service = () => {
           </div>
           <img
             className="about-service-mock"
-            src="/images/about-grp.webp"
+            src="/images/service-team.webp"
             alt="about-learnmore"
           />
         </div>

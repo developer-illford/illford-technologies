@@ -56,6 +56,7 @@
   width: 80%;
   max-width: 1440px;
   margin: auto;
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
   /* flex-wrap: wrap; Allow cards to wrap to the next line on smaller screens */
@@ -186,23 +187,21 @@
   display: flex;
   justify-content: center;
   margin-top: 25px;
-
 }
 .servicePagecard2 {
   display: flex;
   justify-content: center;
   margin-top: 25px;
-
 }
 
 .card-2 {
   width: 50%; /* Adjust the width as needed for smaller screens */
-   padding-top: 20px;
-   margin-right: 20px;
+  padding: 20px;
+  margin-right: 20px;
   border-radius: 10px;
   margin: 10px;
   cursor: pointer;
- 
+
   animation: slideInFromSide 1s ease-out;
 }
 
@@ -221,9 +220,10 @@
   position: relative;
   object-fit: cover;
   width: 40%;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
-/* Your existing styles for larger screens */
 
 @media (max-width: 768px) {
   .servicePage-overlap-2 {
@@ -251,6 +251,3 @@
     margin: 10px 0; /* Adjust margin for smaller screens */
   }
 }
-
-
-

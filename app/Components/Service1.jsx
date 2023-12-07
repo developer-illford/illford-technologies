@@ -20,7 +20,7 @@ const Service1 = () => {
           <div className="content-card">
             <div className="servicecard">
               <img src="/images/serverprovider.webp" alt="" />
-              <div class="service-info">
+              <div className="service-info">
                 <h3> server provider</h3>
                 <br />
                 <p>
@@ -34,7 +34,7 @@ const Service1 = () => {
             </div>
             <div className="servicecard">
               <img src="/images/team.webp" alt="" />
-              <div class="service-info">
+              <div className="service-info">
                 <h3>Dedicated & Shared Support Team</h3>
                 <br />
                 <p>
@@ -48,16 +48,16 @@ const Service1 = () => {
             </div>
             <div className="servicecard">
               <img src="/images/support.webp" alt="" />
-              <div class="service-info">
-              <h3>24/7 Technical Support</h3>
-              <br />
-              <p>
-                From intuitive website designs to feature-rich mobile
-                applications, we specialize in crafting tailored solutions that
-                align with your business goals. Empower your brand with seamless
-                user experiences and functionalities, setting new benchmarks in
-                the digital realm
-              </p>
+              <div className="service-info">
+                <h3>24/7 Technical Support</h3>
+                <br />
+                <p>
+                  From intuitive website designs to feature-rich mobile
+                  applications, we specialize in crafting tailored solutions
+                  that align with your business goals. Empower your brand with
+                  seamless user experiences and functionalities, setting new
+                  benchmarks in the digital realm
+                </p>
               </div>
             </div>
           </div>

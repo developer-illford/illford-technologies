@@ -1,3 +1,4 @@
+"use client";
 import "../app/page.css";
 import arrow from "../public/home-arrow.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -6,12 +7,16 @@ import Image from "next/image";
 import Footer from "./Components/Footer";
 import Contactss from "./Components/Contact";
 export default function Home() {
+  const fb = () => {
+    // Assuming the home page URL is "/home", you can change it accordingly
+    window.location.href = "https://www.facebook.com/illfordtechnologies";
+  };
   return (
     // Home section
     <>
       <div className="home-section">
         <div className="home-image-div">
-          <img src="/images/hom-img.png" alt="" className="home-image" />
+          <img src="/images/hom-img.webp" alt="" className="home-image" />
         </div>
         <div className="home-content-div">
           <div className="home-content">
@@ -28,12 +33,22 @@ export default function Home() {
             </div>
           </div>
           <div className="home-social">
-              <span><i className="bi bi-facebook"></i></span>
-              <span><i className="bi bi-instagram"></i></span>
-              <span><i className="bi bi-linkedin"></i></span>
-              <span><i className="bi bi-twitter-x"></i></span>
-              <span><i className="bi bi-youtube"></i></span>
-            </div>
+            <span>
+              <i className="bi bi-facebook" onClick={fb}></i>
+            </span>
+            <span>
+              <i className="bi bi-instagram"></i>
+            </span>
+            <span>
+              <i className="bi bi-linkedin"></i>
+            </span>
+            <span>
+              <i className="bi bi-twitter-x"></i>
+            </span>
+            <span>
+              <i className="bi bi-youtube"></i>
+            </span>
+          </div>
         </div>
 
         {/* about section */}
@@ -80,7 +95,7 @@ export default function Home() {
                   <p>Web Developments and & App developments</p>
                 </div>
                 <div className="learn-more-btn-div">
-                  <button>
+                  <button onClick={() => (window.location.href = "/services")}>
                     Learn More
                     <i className="bi bi-arrow-right service-arrow"></i>
                   </button>
@@ -112,8 +127,10 @@ export default function Home() {
                 Dive-in to learn about our <br /> marketing portfolio and <br />{" "}
                 creative skills.
               </p>
-              <div className="home-portfolio-btn-div"> 
-              <a href="#contact"><button className="home-portfolio-btn" >Contact Us</button></a>
+              <div className="home-portfolio-btn-div">
+                <a href="#contact">
+                  <button className="home-portfolio-btn">Contact Us</button>
+                </a>
               </div>
             </div>
           </div>
@@ -137,7 +154,6 @@ export default function Home() {
                   className="testimonials-img"
                 />
               </div>
-
 
               <p className="testimonial-talk">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -163,7 +179,6 @@ export default function Home() {
                 />
               </div>
 
-
               <p className="testimonial-talk">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna ali
@@ -171,7 +186,7 @@ export default function Home() {
               <div className="testimonial-ratings">
                 <p className="testimonial-name">Robert Cook</p>
                 <div className="rating-start">
-                <i className="bi bi-star-fill"></i>
+                  <i className="bi bi-star-fill"></i>
                   <i className="bi bi-star-fill"></i>
                   <i className="bi bi-star-fill"></i>
                   <i className="bi bi-star-fill"></i>

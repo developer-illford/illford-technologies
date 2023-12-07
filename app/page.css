@@ -1,10 +1,9 @@
-
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 :root {
   --colortheme: #2bc48a;
-
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,7 +11,6 @@
   word-wrap: normal;
   animation: slideInFromSide 1s ease-out;
 }
-
 
 .home-image-div {
   width: 100%;
@@ -33,8 +31,8 @@
 .home-content-div {
   display: flex;
   justify-content: center;
-  
 }
+
 .home-content {
   color: white;
   position: absolute;
@@ -44,7 +42,7 @@
   /* margin-top: 40vh; */
   top: 45vh;
 }
-.home-social{
+.home-social {
   width: 100%;
   display: flex;
   justify-content: end;
@@ -52,10 +50,9 @@
   position: relative;
   right: 110px;
   top: -65px;
-
 }
 
-.home-social span{
+.home-social span {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -66,7 +63,7 @@
   align-items: center;
   background-color: rgb(204, 197, 197);
 }
-.home-social span:hover{
+.home-social span:hover {
   background-color: black;
   color: white;
 }
@@ -132,9 +129,9 @@
   .third-content {
     font-size: 15px;
   }
-  .home-social span{
-    width:25px;
-    height:25px;
+  .home-social span {
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     margin-inline: 10px;
     text-align: center;
@@ -143,12 +140,12 @@
     align-items: center;
     background-color: rgb(204, 197, 197);
   }
-  .home-social{
+  .home-social {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    right:0px;
+    right: 0px;
   }
   .home-btn {
     width: 150px;
@@ -165,7 +162,7 @@
     font-size: 12px;
   }
 }
-@media (max-width:400px) {
+@media (max-width: 400px) {
   .home-content {
     color: white;
     position: absolute;
@@ -174,16 +171,6 @@
     top: 30vh;
   }
 }
-
-
-
-
-
-
-
-
-
-
 
 /* about section */
 
@@ -259,8 +246,8 @@
 .home-service-first-tsxt {
   font-size: 25px;
 }
-.service-intro p{
-  margin: 0;  
+.service-intro p {
+  margin: 0;
 }
 
 .service-intro h1 {
@@ -283,14 +270,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: slideLoop 3s infinite; 
+  animation: slideLoop 3s infinite;
 }
 .home-service-img img {
   width: 70%;
   /* width:600px; */
   min-width: 400px;
 }
-.home-service-item p{
+.home-service-item p {
   margin: 0;
 }
 .home-service-item {
@@ -300,7 +287,7 @@
   margin-top: 25px;
   font-weight: 500;
 }
-.services { 
+.services {
   margin-top: 50px;
   margin: 0;
 }
@@ -354,7 +341,7 @@
 }
 
 @media (max-width: 1020px) {
-  .home-service-section{
+  .home-service-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -371,9 +358,7 @@
   }
 }
 
-
 /* portfolio section */
-
 
 .home-portfolio-div {
   width: 100%;
@@ -392,15 +377,12 @@
   max-width: 1080px;
   width: 60%;
   z-index: 2;
-
-
 }
 .home-portfolio-content-div {
   width: 100%;
   display: flex;
   justify-content: center;
   max-height: 350px;
-
 }
 .home-portfolio-content {
   max-width: 1440px;
@@ -416,7 +398,6 @@
   align-items: center;
   justify-content: end;
   padding-bottom: 20px;
-
 }
 
 .home-portfolio-content p {
@@ -435,7 +416,6 @@
   color: white;
   position: relative;
   /* top: 80px; */
-  
 }
 .home-portfolio-btn {
   width: 140px;
@@ -451,13 +431,11 @@
   cursor: pointer;
   background-color: var(--colortheme);
 }
-.home-portfolio-btn-div{
-  width:75%;
+.home-portfolio-btn-div {
+  width: 75%;
 }
 
-
 /* testimonial css */
-
 
 .home-testimonial-div {
   width: 100%;
@@ -471,7 +449,7 @@
   width: 80%;
   max-width: 1440px;
 }
-.home-testimonial-heading p{
+.home-testimonial-heading p {
   margin: 0;
   margin-bottom: 10px;
   font-size: 17px;
@@ -517,13 +495,13 @@
   color: #2bc48a;
   font-weight: 700;
 }
-.testimonials-img-div{
+.testimonials-img-div {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
 }
-.testimonials-img{
+.testimonials-img {
   width: 60px;
   position: relative;
   /* bottom: 50px; */
@@ -531,17 +509,16 @@
   object-fit: cover;
   border-radius: 50%;
 }
-.rating-start{
+.rating-start {
   padding-inline-end: 15px;
 }
-hr{
+hr {
   width: 80%;
   margin-top: 10px;
   border: 1px solid #2bc48a !important;
 }
 
-
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .home-testimonial {
     display: flex;
     flex-direction: column;
@@ -550,33 +527,29 @@ hr{
   .testimonials {
     margin-inline: 0px;
     margin-bottom: 0px;
-    margin-top:20px;
+    margin-top: 20px;
     box-shadow: rgba(76, 74, 74, 0.35) 0px 5px 15px;
-
   }
-
 }
-
 
 /* blog section */
 
-.home-blog-main-div{
+.home-blog-main-div {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.home-blog-heading{
-  width: 80%;
-  max-width: 1440px;
-
-}
-.blog-card{
+.home-blog-heading {
   width: 80%;
   max-width: 1440px;
 }
-.home-blog-btn{
+.blog-card {
+  width: 80%;
+  max-width: 1440px;
+}
+.home-blog-btn {
   background-color: transparent;
   font-weight: 500;
   border-radius: 20px;
@@ -586,7 +559,7 @@ hr{
   height: 35px;
   font-size: 14px;
 }
-.card-img-top{
+.card-img-top {
   max-height: 200px;
   object-fit: cover;
 }
@@ -594,56 +567,54 @@ hr{
   background-color: #2bc48a;
   color: white !important;
 }
-.card-text{
+.card-text {
   font-weight: 500;
   font-size: 15px;
 }
-.home-blog-heading p{
+.home-blog-heading p {
   margin: 0;
   margin-bottom: 10px;
   font-size: 17px;
 }
-.home-blog-heading h2{
+.home-blog-heading h2 {
   color: #2bc48a;
   font-weight: 600;
   margin-bottom: 40px;
 }
 
-
 /* FAQ's section */
 
-.faq-main-div{
+.faq-main-div {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 60px;
 }
-.faq-div{
+.faq-div {
   width: 80%;
   max-width: 1440px;
   padding: 20px;
   /* border: 2px solid red; */
 }
-.faq-heading{
+.faq-heading {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-bottom: 40px;
 }
-.faq-heading h2{
+.faq-heading h2 {
   font-weight: 700;
 }
-.questions-ans-div{
+.questions-ans-div {
   margin-bottom: 20px;
 }
-.questions{
+.questions {
   font-size: 16px;
   font-weight: 600;
 }
-.answers{
+.answers {
   font-size: 14px;
   color: #727272;
-
 }

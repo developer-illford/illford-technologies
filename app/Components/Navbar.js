@@ -8,13 +8,18 @@ const Navbar = () => {
 
   const toggleMobileMenu = () => {
     setMobileMenuActive(!mobileMenuActive);
-  }; 
+  };
 
   return (
     <div className="main-navbar-div">
       <nav className="nav-bar">
         <div className="logo-div">
-          <img src="/images/illford-logo.png" alt="" className="logo" />
+          <img
+            src="/images/illford-logo.png"
+            alt=""
+            className="logo"
+            onClick={() => (window.location.href = "/")}
+          />
         </div>
         <ul className={`nav-item-div  ${mobileMenuActive ? "nav-active" : ""}`}>
           <li className="nav-item">

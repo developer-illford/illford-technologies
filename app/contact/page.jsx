@@ -20,7 +20,7 @@ function Contact() {
             <div className="contactss">
               <div className="home-contact-item">
                 <img
-                  src="/images/contact-address.jpg"
+                  src="/images/location.webp"
                   alt=""
                   className="contactpage-img"
                 />
@@ -28,8 +28,8 @@ function Contact() {
                   <h6>Our Address</h6>
 
                   <p>
-                    {" "}
-                    Illford Digital, BCG Tower, Door No: 11E, Kakkanad, Kochi,{" "}
+                   
+                    Illford Digital, BCG Tower, Door No: 11E, Kakkanad, Kochi,
                     <br />
                     Eranakulam, India, 682037
                   </p>
@@ -37,7 +37,7 @@ function Contact() {
               </div>
               <div className="home-contact-item">
                 <img
-                  src="/images/mobile-contact.jpg"
+                  src="/images/telephone.webp"
                   alt=""
                   className="contactpage-img"
                 />
@@ -48,7 +48,7 @@ function Contact() {
               </div>
               <div className="home-contact-item">
                 <img
-                  src="/images/email-contact.jpg"
+                  src="/images/mail.webp"
                   alt=""
                   className="contactpage-img"
                 />
@@ -60,7 +60,7 @@ function Contact() {
             </div>
           </div>
           <div className="home-contact-img">
-            <img src="/images/contact-robot.png" alt="" />
+            <img src="/images/mobile1-contact.webp" alt="" />
           </div>
         </div>
       </div>
