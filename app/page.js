@@ -11,6 +11,16 @@ export default function Home() {
     // Assuming the home page URL is "/home", you can change it accordingly
     window.location.href = "https://www.facebook.com/illfordtechnologies";
   };
+  const insta = () => {
+    window.location.href = "https://www.instagram.com/illforddigital/";
+  };
+  const linkdin = () => {
+    window.location.href = "https://www.linkedin.com/company/illford-digital/";
+  };
+  const twitterx = () => {
+    window.location.href = "https://twitter.com/Illforddigital";
+  };
+
   return (
     // Home section
     <>
@@ -40,30 +50,13 @@ export default function Home() {
               <i className="bi bi-facebook" onClick={fb}></i>
             </span>
             <span>
-              <i
-                className="bi bi-instagram"
-                onClick={() =>
-                  (window.location.href =
-                    "https://www.instagram.com/illforddigital/")
-                }
-              ></i>
+              <i className="bi bi-instagram" onClick={insta}></i>
             </span>
             <span>
-              <i
-                className="bi bi-linkedin"
-                onClick={() =>
-                  (window.location.href =
-                    "https://www.linkedin.com/company/illford-digital/")
-                }
-              ></i>
+              <i className="bi bi-linkedin" onClick={linkdin}></i>
             </span>
             <span>
-              <i
-                className="bi bi-twitter-x"
-                onClick={() =>
-                  (window.location.href = "https://twitter.com/Illforddigital")
-                }
-              ></i>
+              <i className="bi bi-twitter-x" onClick={twitterx}></i>
             </span>
             <span>
               <i className="bi bi-youtube"></i>
