@@ -27,11 +27,12 @@ export default function Home() {
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <div className="home-btn-div">
-              
-              <button className="home-btn" onClick={() => (window.location.href = "#contact")}>
+              <button
+                className="home-btn"
+                onClick={() => (window.location.href = "#contact")}
+              >
                 GET STARTNOW <Image src={arrow} className="home-arrow-svg" />
               </button>
-              
             </div>
           </div>
           <div className="home-social">
@@ -39,13 +40,30 @@ export default function Home() {
               <i className="bi bi-facebook" onClick={fb}></i>
             </span>
             <span>
-              <i className="bi bi-instagram"></i>
+              <i
+                className="bi bi-instagram"
+                onClick={() =>
+                  (window.location.href =
+                    "https://www.instagram.com/illforddigital/")
+                }
+              ></i>
             </span>
             <span>
-              <i className="bi bi-linkedin"></i>
+              <i
+                className="bi bi-linkedin"
+                onClick={() =>
+                  (window.location.href =
+                    "https://www.linkedin.com/company/illford-digital/")
+                }
+              ></i>
             </span>
             <span>
-              <i className="bi bi-twitter-x"></i>
+              <i
+                className="bi bi-twitter-x"
+                onClick={() =>
+                  (window.location.href = "https://twitter.com/Illforddigital")
+                }
+              ></i>
             </span>
             <span>
               <i className="bi bi-youtube"></i>
