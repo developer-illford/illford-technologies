@@ -40,7 +40,7 @@ const About = () => {
                 <p>Web Developments and & App developments</p>
               </div>
               <div className="learn-more-btn-div">
-                <button>
+                <button onClick={() => (window.location.href = "/services")}>
                   Learn More
                   <i className="bi bi-arrow-right service-arrow"></i>
                 </button>

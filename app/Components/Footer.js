@@ -31,8 +31,12 @@ const Footer = () => {
           </div>
           <div className="footer-bottom">
             <div className="footer-bottom-txt">
-              <p>illfordDigital </p>
-              <p>Contact</p>
+              <a href="/">
+                <p>illfordDigital </p>
+              </a>
+              <a href="/contact">
+                <p>Contact</p>
+              </a>
               <p>Privacy Policy </p>
               <p>Terms & Conditions</p>
             </div>
