@@ -27,11 +27,11 @@ export default function Home() {
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <div className="home-btn-div">
-              <a href="#contact">
-              <button className="home-btn">
+              
+              <button className="home-btn" onClick={() => (window.location.href = "#contact")}>
                 GET STARTNOW <Image src={arrow} className="home-arrow-svg" />
               </button>
-              </a>
+              
             </div>
           </div>
           <div className="home-social">

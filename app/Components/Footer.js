@@ -41,11 +41,40 @@ const Footer = () => {
               <p>Terms & Conditions</p>
             </div>
             <div className="footer-social">
-              <i className="bi bi-facebook"></i>
-              <i className="bi bi-instagram"></i>
-              <i className="bi bi-linkedin"></i>
-              <i className="bi bi-twitter-x"></i>
-              <i className="bi bi-youtube"></i>
+              <i
+                className="bi bi-facebook"
+                onClick={() =>
+                  (window.location.href =
+                    "https://www.facebook.com/illforddigital.kochi")
+                }
+              ></i>
+              <i
+                className="bi bi-instagram"
+                onClick={() =>
+                  (window.location.href =
+                    "https://www.instagram.com/illforddigital/")
+                }
+              ></i>
+              <i
+                className="bi bi-linkedin"
+                onClick={() =>
+                  (window.location.href =
+                    "https://www.linkedin.com/company/illford-digital/")
+                }
+              ></i>
+              <i
+                className="bi bi-twitter-x"
+                onClick={() =>
+                  (window.location.href = "https://twitter.com/Illforddigital")
+                }
+              ></i>
+              <i
+                className="bi bi-youtube"
+                onClick={() =>
+                  (window.location.href =
+                    "https://www.facebook.com/illforddigital.kochi")
+                }
+              ></i>
             </div>
           </div>
         </div>
