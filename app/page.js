@@ -26,39 +26,6 @@ export default function Home() {
     // Home section
     <>
       <div className="home-section">
-        <Head>
-          {/* Primary Meta Tags  */}
-          <title>The Best Web Development Services Kochi | Web Designing Services Kochi - Illford Technologies</title>
-          <meta name="title" content="The Best Web Development Services Kochi | Web Designing Services Kochi - Illford Technologies" />
-          <meta name="description" content="Revolutionize your digital sphere with Illford Technologies - The best Web Development Services Kochi, Web designing experts in Kochi and Digital marketing experts in Kochi. Express your digital identity through innovation and excellence." />
-
-          <meta name="keywords" content="Web development experts in Kochi, Web designing experts in Kochi, App development company in Kochi, Web development company in Kochi, Web development experts in Kochi, Digital marketing experts in Kochi, Best website development company in Kochi, Web design services Kochi, Website development services Kerala, Website design services Kerala" />
-          <meta name="language" content="english" />
-          <meta name="content-language" content="english" />
-          <meta name="rating" content="General" />
-          <meta name="robots" content="follow,index" />
-          <link rel="canonical" href="https://illfordtechnologies.in/" />
-          <meta name="DC.title" content="The Best Web Development Services Kochi | Web Designing Services Kochi - Illford Technologies" />
-          <meta name="geo.region" content="IN-KL" />
-          <meta name="geo.placename" content="Kochi" />
-          <meta name="geo.position" content="9.967428;76.245444" />
-          <meta name="ICBM" content="9.967428, 76.245444" />
-
-          {/* Open Graph / Facebook   */}
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://illfordtechnologies.in/" />
-          <meta property="og:title" content="The Best Web Development Services Kochi | Web Designing Services Kochi - Illford Technologies" />
-          <meta property="og:description" content="Revolutionize your digital sphere with Illford Technologies - The best Web Development Services Kochi, Web designing experts in Kochi and Digital marketing experts in Kochi. Express your digital identity through innovation and excellence." />
-          <meta property="og:image" content="https://illfordtechnologies.in/images/illford-logo.png" />
-
-          {/* Twitter    */}
-          <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="https://illfordtechnologies.in/" />
-          <meta property="twitter:title" content="The Best Web Development Services Kochi | Web Designing Services Kochi - Illford Technologies" />
-          <meta property="twitter:description" content="Revolutionize your digital sphere with Illford Technologies - The best Web Development Services Kochi, Web designing experts in Kochi and Digital marketing experts in Kochi. Express your digital identity through innovation and excellence." />
-          <meta property="twitter:image" content="https://illfordtechnologies.in/images/illford-logo.png" />
-        </Head>
-
         <div className="home-image-div">
           <img src="/images/hom-img.webp" alt="" className="home-image" />
         </div>
