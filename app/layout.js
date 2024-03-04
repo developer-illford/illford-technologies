@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       <meta name="author" content="Illford Technologies" />
       <meta name="content-language" content="english" />
       <meta name="rating" content="General" />
-      <link rel="canonical" href="https://illfordtechnologies.in/services" />
+      <link rel="canonical" href="https://illfordtechnologies.com/" />
       <meta name="DC.title" content="Website Designing services Kochi and Website development services Ernakulam | Illford Technologies" />
       <meta name="geo.region" content="IN-KL" />
       <meta name="geo.placename" content="Kochi" />
@@ -62,3 +62,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
