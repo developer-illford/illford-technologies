@@ -3,8 +3,6 @@ import "../app/page.css";
 import arrow from "../public/home-arrow.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Image from "next/image";
-import Head from "next/head";
-
 import Footer from "./Components/Footer";
 import Contactss from "./Components/Contact";
 export default function Home() {
