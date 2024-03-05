@@ -43,7 +43,7 @@ const RootLayout = ({ children }) => {
       },
       '/about': {
         title: 'About Illford Technologies | Web development company in Kochi and Web designing company in Kochi',
-        description: 'Discover Illford Technologies, a top Website development company in Kochi and Website designing company in Kochi. For an excellent online experience, discover our proficiency in creative design, tactical digital marketing, and dependable server solutionsDiscover Illford Technologies, a top Website development company in Kochi and Website designing company in Kochi. For an excellent online experience, discover our proficiency in creative design, tactical digital marketing, and dependable server solutions..',
+        description: 'Discover Illford Technologies, a top Website development company in Kochi and Website designing company in Kochi. For an excellent online experience, discover our proficiency in creative design, tactical digital marketing, and dependable server solutions',
         keywords: 'Website development experts in Kochi, Website designing experts in Kochi, Website design services Kochi, Website development services Kochi, Web design services Kerala, Top website development company in Kochi, Digital marketing services in Kochi, Web development experts in Kerala, Website development company in Kochi, App development company in Kerala',
         language: 'english',
         rating: 'General',
