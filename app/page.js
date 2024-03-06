@@ -24,6 +24,17 @@ export default function Home() {
     // Home section
     <>
       <div className="home-section">
+        {/* Google Tag Manager (noscript) */}
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MB6BSFND"
+        height="0"
+        width="0"
+        style={{ display: 'none', visibility: 'hidden' }}
+      ></iframe>
+    </noscript>
+    {/* End Google Tag Manager (noscript) */}
+
         <div className="home-image-div">
           <img src="/images/hom-img.webp" alt="" className="home-image" />
         </div>
