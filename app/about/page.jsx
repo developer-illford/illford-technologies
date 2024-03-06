@@ -8,6 +8,16 @@ const About = () => {
   return (
     // about section
     <div className="about-container">
+      {/* Google Tag Manager (noscript) */}
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-MB6BSFND"
+          height="0"
+          width="0"
+          style={{ display: 'none', visibility: 'hidden' }}
+        ></iframe>
+      </noscript>
+      {/* End Google Tag Manager (noscript) */}
       <div className="about-image-div">
         <div className="about-content">
           <p> About Us</p>
