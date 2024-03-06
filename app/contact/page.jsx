@@ -6,6 +6,16 @@ import Footer from "../Components/Footer";
 function Contact() {
   return (
     <div className="contact-container">
+      {/* Google Tag Manager (noscript) */}
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-MB6BSFND"
+          height="0"
+          width="0"
+          style={{ display: 'none', visibility: 'hidden' }}
+        ></iframe>
+      </noscript>
+      {/* End Google Tag Manager (noscript) */}
       <div className="contact-image-div">
         <div className="contact-content">
           <p> Contact Us</p>
@@ -28,7 +38,7 @@ function Contact() {
                   <h6>Our Address</h6>
 
                   <p>
-                   
+
                     Illford Digital, BCG Tower, Door No: 11E, Kakkanad, Kochi,
                     <br />
                     Eranakulam, India, 682037
