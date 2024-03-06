@@ -95,15 +95,15 @@ export default function Home() {
 
               <div className="services">
                 <div className="home-service-item">
-                  <img src="/images/digital-marketing-dot.png" alt="" />
+                  <img src="/images/digital-marketing-dot.webp" alt="" />
                   <p>Wholesale/Retail server provider</p>
                 </div>
                 <div className="home-service-item">
-                  <img src="/images/wholsale&retail.png" alt="" />
+                  <img src="/images/wholsale&retail.webp" alt="" />
                   <p>Digital Marketing Solution Partner</p>
                 </div>
                 <div className="home-service-item">
-                  <img src="/images/webdev-dot.png" alt="" />
+                  <img src="/images/webdev-dot.webp" alt="" />
                   <p>Web Developments and & App developments</p>
                 </div>
                 <div className="learn-more-btn-div">
@@ -115,7 +115,7 @@ export default function Home() {
               </div>
             </div>
             <div className="home-service-img">
-              <img src="/images/service-page.png" alt="" />
+              <img src="/images/service-page.webp" alt="" />
             </div>
           </div>
         </div>
@@ -221,7 +221,7 @@ export default function Home() {
             <div className="col">
               <div className="card">
                 <img
-                  src="images/blog-1.jpg"
+                  src="images/blog-1.webp"
                   className="card-img-top"
                   alt="..."
                 />
@@ -235,7 +235,7 @@ export default function Home() {
             </div>
             <div className="col">
               <div className="card">
-                <img src="images/blog-2.jpg" className="card-img-top" alt="" />
+                <img src="images/blog-2.webp" className="card-img-top" alt="" />
                 <div className="card-body">
                   <p className="card-text">
                     Digital Marketing: Stay Relevant To The Empowered consumer
@@ -247,7 +247,7 @@ export default function Home() {
             <div className="col">
               <div className="card">
                 <img
-                  src="images/blog-3.jpg"
+                  src="images/blog-3.webp"
                   className="card-img-top"
                   alt="..."
                 />
