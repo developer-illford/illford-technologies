@@ -24,17 +24,6 @@ export default function Home() {
     // Home section
     <>
       <div className="home-section">
-        {/* Google Tag Manager (noscript) */}
-    <noscript>
-      <iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-MB6BSFND"
-        height="0"
-        width="0"
-        style={{ display: 'none', visibility: 'hidden' }}
-      ></iframe>
-    </noscript>
-    {/* End Google Tag Manager (noscript) */}
-
         <div className="home-image-div">
           <img src="/images/hom-img.webp" alt="" className="home-image" />
         </div>
@@ -388,6 +377,31 @@ export default function Home() {
         {/* Footer section */}
 
         <Footer />
+
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-MB6BSFND"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          ></iframe>
+        </noscript>
+        {/* End Google Tag Manager (noscript) */}
+
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WNBWCC2VQ3"></script>
+        <script>
+          {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-WNBWCC2VQ3');
+      `}
+        </script>
+
+
       </div>
     </>
   );
