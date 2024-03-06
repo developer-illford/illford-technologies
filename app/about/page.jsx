@@ -28,15 +28,15 @@ const About = () => {
 
             <div className="services">
               <div className="home-service-item">
-                <img src="/images/digital-marketing-dot.png" alt="" />
+                <img src="/images/digital-marketing-dot.webp" alt="" />
                 <p>Wholesale/Retail server provider</p>
               </div>
               <div className="home-service-item">
-                <img src="/images/wholsale&retail.png" alt="" />
+                <img src="/images/wholsale&retail.webp" alt="" />
                 <p>Digital Marketing Solution Partner</p>
               </div>
               <div className="home-service-item">
-                <img src="/images/webdev-dot.png" alt="" />
+                <img src="/images/webdev-dot.webp" alt="" />
                 <p>Web Developments and & App developments</p>
               </div>
               <div className="learn-more-btn-div">
@@ -223,7 +223,7 @@ const About = () => {
         <div className="row row-cols-1 row-cols-md-3 g-4 blog-card">
           <div className="col">
             <div className="card">
-              <img src="images/blog-1.jpg" className="card-img-top" alt="..." />
+              <img src="images/blog-1.webp" className="card-img-top" alt="..." />
               <div className="card-body">
                 <p className="card-text">
                   Grow Your Business with A Digital Marketing Strategy
@@ -234,7 +234,7 @@ const About = () => {
           </div>
           <div className="col">
             <div className="card">
-              <img src="images/blog-2.jpg" className="card-img-top" alt="" />
+              <img src="images/blog-2.webp" className="card-img-top" alt="" />
               <div className="card-body">
                 <p className="card-text">
                   Digital Marketing: Stay Relevant To The Empowered consumer
@@ -245,7 +245,7 @@ const About = () => {
           </div>
           <div className="col">
             <div className="card">
-              <img src="images/blog-3.jpg" className="card-img-top" alt="..." />
+              <img src="images/blog-3.webp" className="card-img-top" alt="..." />
               <div className="card-body">
                 <p className="card-text">
                   5 Inexpensive Online Tools Get Your Business Off The Ground
