@@ -5,7 +5,6 @@ import Service2 from "../Components/Service2";
 import Service3 from "../Components/Service3";
 import "../services/service.css";
 import Footer from "../Components/Footer";
-import Head from "next/head";
 
 const Service = () => {
   const [activeService, setActiveService] = useState(<Service1 />);
@@ -16,9 +15,17 @@ const Service = () => {
 
   return (
     <div>
-      
-
       <div className="service-container">
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-MB6BSFND"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          ></iframe>
+        </noscript>
+        {/* End Google Tag Manager (noscript) */}
         <div className="service-image-div">
           <div className="service-content">
             <p> Services</p>
