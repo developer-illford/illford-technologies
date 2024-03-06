@@ -26,7 +26,7 @@ const Service = () => {
             className="card"
             onClick={() => handleServiceClick(<Service1 />)}
           >
-            <img src="/images/database.png" alt="" />
+            <img src="/images/database.webp" alt="" />
             <h3>Wholesale and Retail service provider</h3>
             <br />
             <p>
@@ -40,7 +40,7 @@ const Service = () => {
             className="card"
             onClick={() => handleServiceClick(<Service2 />)}
           >
-            <img src="/images/donut-chart.png" alt="" />
+            <img src="/images/donut-chart.webp" alt="" />
             <h3>Digital Marketing Solutions</h3>
             <br />
             <p>
@@ -54,7 +54,7 @@ const Service = () => {
             className="card"
             onClick={() => handleServiceClick(<Service3 />)}
           >
-            <img src="/images/webdev-dot.png" alt="" />
+            <img src="/images/webdev-dot.webp" alt="" />
             <h3>Web and App Development</h3>
             <br />
             <p>
