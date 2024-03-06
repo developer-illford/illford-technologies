@@ -5,7 +5,7 @@ function Contactss() {
     <div className="contact-main-div" id="contact">
       <div className="contact-div">
         <div className="contact-img-div">
-          <img src="images/mock-contact.png" alt="" className="contact-img" />
+          <img src="images/mock-contact.webp" alt="" className="contact-img" />
         </div>
         <div className="contact-details">
           <div className="contact-heading">

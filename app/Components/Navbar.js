@@ -15,7 +15,7 @@ const Navbar = () => {
       <nav className="nav-bar">
         <div className="logo-div">
           <img
-            src="/images/illford-logo.png"
+            src="/images/illford-logo.webp"
             alt=""
             className="logo"
             onClick={() => (window.location.href = "/")}
