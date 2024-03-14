@@ -11,9 +11,7 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-first-content">
             <div className="footer-txt">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              vestibulum fermentum odio, vel rhoncus dolor varius a.
-            </div>
+              Step into our virtual sanctuary, where the harmonious fusion of creativity and technology unfolds. Immerse yourself in captivating online experiences through the expertise of Web Development Services            </div>
             <div className="footer-nav">
               <a href="/">
                 <p>Home</p>
@@ -45,22 +43,22 @@ const Footer = () => {
               <i
                 className="bi bi-facebook"
                 onClick={() =>
-                  (window.location.href =
-                    "https://www.facebook.com/illforddigital.kochi")
+                (window.location.href =
+                  "https://www.facebook.com/illforddigital.kochi")
                 }
               ></i>
               <i
                 className="bi bi-instagram"
                 onClick={() =>
-                  (window.location.href =
-                    "https://www.instagram.com/illforddigital/")
+                (window.location.href =
+                  "https://www.instagram.com/illforddigital/")
                 }
               ></i>
               <i
                 className="bi bi-linkedin"
                 onClick={() =>
-                  (window.location.href =
-                    "https://www.linkedin.com/company/illford-digital/")
+                (window.location.href =
+                  "https://www.linkedin.com/company/illford-digital/")
                 }
               ></i>
               <i
@@ -72,8 +70,8 @@ const Footer = () => {
               <i
                 className="bi bi-youtube"
                 onClick={() =>
-                  (window.location.href =
-                    "https://www.facebook.com/illforddigital.kochi")
+                (window.location.href =
+                  "https://www.facebook.com/illforddigital.kochi")
                 }
               ></i>
             </div>
