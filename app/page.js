@@ -32,15 +32,14 @@ export default function Home() {
             <p className="first-content">We're</p>
             <p className="second-content">Crafting digital narratives</p>
             <p className="third-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Welcome to our digital haven, where creativity dances with technology. Explore captivating online experiences through our web development services Kochi.
             </p>
             <div className="home-btn-div">
               <button
                 className="home-btn"
                 onClick={() => (window.location.href = "#contact")}
               >
-                GET STARTNOW <Image src={arrow} className="home-arrow-svg" />
+                GET START NOW <Image src={arrow} className="home-arrow-svg" />
               </button>
             </div>
           </div>
@@ -72,10 +71,7 @@ export default function Home() {
               Who <span>We Are</span>
             </h1>
             <p className="about-text">
-              We are a dynamic and innovative technology company that is
-              committed to revolutionizingthe industry with cutting-edge
-              solutions,our team of experts is hard at work developing
-              game-changing products that will take the market by storm.
+              We are a dynamic and innovative technology company committed to revolutionizing the industry with advanced solutions. Our team of experts is hard at work developing game-changing products in the realm of Web Development Services Kochi and Web Designing Services Kochi, set to make waves in the market.
             </p>
             <h4 className="ceo-words">Words from the CEO</h4>
           </div>
@@ -89,8 +85,7 @@ export default function Home() {
               <p className="home-service-first-tsxt">our</p>
               <h1>Services</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                As a comprehensive service provider, we excel in Wholesale/Retail server solutions and serve as a Digital Marketing Solution Partner. Our expertise extends to top-notch Web Development Services Kochi and innovative Web Designing Services Kochi, ensuring a complete digital solution for your business.
               </p>
 
               <div className="services">
@@ -168,8 +163,7 @@ export default function Home() {
               </div>
 
               <p className="testimonial-talk">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna ali
+                Illford Technologies excels in exceptional services. Recommend for surpassing expectations and Web Development Services Kochi.
               </p>
               <div className="testimonial-ratings">
                 <p className="testimonial-name">Amelia</p>
@@ -192,8 +186,7 @@ export default function Home() {
               </div>
 
               <p className="testimonial-talk">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna ali
+                I have no words to express my gratitude. Illford Technology, a game changer for branding, offers standard and affordable Web Designing Services Kochi.
               </p>
               <div className="testimonial-ratings">
                 <p className="testimonial-name">Robert Cook</p>
@@ -275,100 +268,65 @@ export default function Home() {
               <p>Some awesome words from awesome people</p>
             </div>
             <div className="questions-ans-div">
-              <h2 className="questions">1.What is Illford Digital Company?</h2>
+              <h2 className="questions">1. What services does Illford Technologies offer?</h2>
               <p className="answers">
-                Illford Digital Company is a reputable digital marketing agency
-                that specializes in helping businesses thrive in the online
-                world. We provide a wide range of services to enhance your
-                online presence and drive results.
+                We offer a comprehensive range of services, including wholesale and retail, Digital Marketing, Branding, and Web and app development. Explore excellence with our cutting-edge Web Development Services Kochi.
               </p>
             </div>
             <div className="questions-ans-div">
               <h2 className="questions">
-                2.What services does Illford Digital Company offer?
+                2.How is Ilford Technologies different from other digital service providers?
               </h2>
               <p className="answers">
-                Illford Digital Company offers a comprehensive suite of digital
-                marketing services, including Search Engine Optimization (SEO),
-                Pay-Per-Click Advertising (PPC), Social Media Marketing, Content
-                Creation, Web Design, Email Marketing, and more. We have all the
-                tools you need for a successful online strategy.
+                We believe in providing high-quality dedicated services to each client. Our human-centered approach ensures personalized solutions. With innovative Web Designing Services Kochi, we exceed client expectations, making us the ideal partner in this digital realm.
               </p>
             </div>
             <div className="questions-ans-div">
               <h2 className="questions">
-                3.How can Illford Digital Company benefit my business?
+                3.Can Illford Technologies handle both small and large scale projects?
               </h2>
               <p className="answers">
-                Illford Digital Company can benefit your business by increasing
-                your brand's visibility, attracting high-quality traffic to your
-                website, and converting visitors into customers. We use
-                data-driven strategies and creativity to ensure your digital
-                marketing efforts lead to success.
+                Absolutely, whether you are a startup or an established enterprise to meet the unique requirements of your business goals, we tailor customised and well researched  solutions for you.
               </p>
             </div>
             <div className="questions-ans-div">
               <h2 className="questions">
-                4.What sets Illford Digital Company apart from other digital
-                marketing agencies?
+                4.What technologies does Illford Technologies specialise in for web development?
               </h2>
               <p className="answers">
-                What makes Illford Digital Company unique is our innovative
-                approach, customer-centric focus, and a team of experts who are
-                dedicated to achieving your goals. We're not just another
-                agency; we're your strategic partner in the ever-evolving
-                digital landscape.
+                As the parent company of Illford Digital, we aim to make our web development services unique and customer-centric. Proud experts in PHP, Laravel, WordPress, and more, we choose the perfect technological solution for your specific needs. With Web Development Services Kochi, we ensure that you receive the best output, tailored to your requirements.
               </p>
             </div>
             <div className="questions-ans-div">
               <h2 className="questions">
-                5.Is Illford Digital Company's work measurable and data-driven?
+                5.How does Illford Technologies approach app development?
               </h2>
               <p className="answers">
-                Absolutely. We firmly believe in data-driven strategies. We
-                employ advanced analytics and reporting tools to track the
-                performance of our campaigns. Our approach is transparent, and
-                we provide you with actionable insights to maximize your
-                success.
+                We believe in two keys - Innovation and User-centric design. From brainstorming to building MVPs, we closely collaborate to create the best apps for your business, integrating our expertise in Web Designing services Kochi.
               </p>
             </div>
             <div className="questions-ans-div">
               <h2 className="questions">
-                6.Can Illford Digital Company customize its services to suit my
-                business's specific needs?
+                6. How does Illford Technologies ensure transparency in projects?
               </h2>
               <p className="answers">
-                Yes, we can. We understand that every business is unique. Our
-                team of experts excels at tailoring our services to meet your
-                specific goals and challenges. Your success is our top priority,
-                and our strategies are adaptable to ensure you get the results
-                you need.
+                Building trust is key in business. At Illford Technologies, transparency is core. From regular updates to detailed analytics, we ensure transparency in every partnership step, maintaining integrity in our Web Designing services Kochi.
               </p>
             </div>
             <div className="questions-ans-div">
               <h2 className="questions">
-                7.How does Illford Digital Company stay up-to-date with industry
-                trends?
+                7.Does Illford Technologies offer server provider services?
               </h2>
               <p className="answers">
-                Staying ahead of the curve is crucial. Illford Digital Company
-                continuously monitors the latest trends in the digital marketing
-                industry, such as voice search optimization, artificial
-                intelligence, video content, and emerging social media
-                platforms. We ensure your strategies align with the
-                ever-changing landscape.
+                Yes. At Illford Technologies, we provide best server services for both wholesale and retail clients. We offer robust service options to meet your unique business needs.
               </p>
             </div>
             <div className="questions-ans-div">
               <h2 className="questions">
-                8.How can I get in touch with Illford Digital Company to discuss
-                my digital marketing needs?
+                8.How can I get start with Illford Technologies for my project?
               </h2>
               <p className="answers">
-                Contacting us is easy. You can reach out through our website,
-                email, or phone. We'll be happy to schedule a consultation to
-                discuss your goals and create a customized digital marketing
-                strategy for your business.
+                Getting started is simple. Contact us through our website and our team will reach out to understand your project requirements. We'll work together to craft a personalized solution that aligns with your goals and objectives.
               </p>
             </div>
           </div>
