@@ -28,10 +28,9 @@ function Contact() {
                   <h6>Our Address</h6>
 
                   <p>
-
-                    Illford Digital, BCG Tower, Door No: 11E, Kakkanad, Kochi,
+                  Illford Technologies, BCG Tower, Door No: 11E, Kakkanad, Kochi,
                     <br />
-                    Eranakulam, India, 682037
+                    Ernakulam, India, 682037
                   </p>
                 </div>
               </div>
